@@ -1,0 +1,20 @@
+.featured-projects {
+    background-color: rgba(250, 250, 250, 0.4);
+    border-radius: 1rem;
+    border-bottom: 2px solid rgba(250, 250, 250, 0.6);
+    width: 100%;
+}
+
+.featured-spacing {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: fit-content;
+    width: 100%;
+    justify-self: center;
+}
+
+.project-list {
+    justify-content: center;
+    align-items: center;
+}

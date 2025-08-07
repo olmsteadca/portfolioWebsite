@@ -1,0 +1,66 @@
+.update {
+    display: flex;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    height: fit-content;
+    margin: 0.5rem;
+}
+
+.update-spacing {
+    display: flex;
+    flex-direction: column;
+    max-width: 20vw;
+}
+
+.update-image {
+    border-radius: 1rem 1rem 0 0;
+    object-fit: cover;
+    height: 20rem;
+    width: stretch;
+}
+
+.image-spacing {
+    overflow: hidden;
+    width: 100%;
+    height: 30%;
+}
+
+.update-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1.update-title {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #D23278;
+    text-transform: uppercase;
+    font-size: clamp(2rem, 2.5rem, 3rem);
+    line-height: 1rem;
+}
+
+h2.timestamp {
+    text-align: center;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 1.75rem, 2rem);
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    line-height: 0.25rem;
+    color: #3658A2;
+}
+
+p.summary {
+    text-align: justify;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 1.75rem, 2rem);
+    font-family: 'Albert Sans', sans-serif;
+    color: #3658A2;
+    margin-inline: 1.5rem;
+}

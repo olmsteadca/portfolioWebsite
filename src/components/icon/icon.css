@@ -1,0 +1,9 @@
+/* background for icons */
+.icon {
+    justify-content: center;
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 8rem;
+    height: 8rem;
+}

@@ -1,0 +1,58 @@
+p.tagline {
+    text-align: center;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 1.75rem, 2rem);
+    font-family: 'Albert Sans', sans-serif;
+    color: #3658A2;
+}
+
+.tagline-margin {
+    display: flex;
+    width: 70%;
+}
+
+.labeled-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.design-values {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8rem;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 4rem;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%
+}
+
+h1.greeting {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #3658A2;
+    text-transform: uppercase;
+    font-size: clamp(3rem, 8rem, 13rem);
+}
+
+.greeting-spacing {
+    height: 22rem;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

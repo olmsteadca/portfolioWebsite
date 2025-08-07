@@ -1,0 +1,33 @@
+.navbar {
+    background-color: rgba(250, 250, 250, 0.4);
+    border-radius: 1rem;
+    border-bottom: 2px solid rgba(250, 250, 250, 0.6);
+    width: contain;
+    height: contain;
+    margin: 0;
+}
+
+.navbar-content {
+    justify-content: center;
+    align-content: center;
+    padding: 0.5rem;
+}
+
+.navbar-links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 0.5rem;
+    margin-left: -2rem;
+}
+
+.navbar-link {
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #3658A2;
+    text-transform: uppercase;
+    font-size: clamp(2rem, 2.25rem, 2.5rem);
+    line-height: 2.25rem;
+    text-decoration: none;
+}

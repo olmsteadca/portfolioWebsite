@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "We're Live!",
+    "date": "08-06-2025",
+    "content": "",
+    "summary": "Today marks the occasion of me finally finishing the first version of my portfolio website (this one)! I hadn’t finished a website 100% independently before now. I had a great time! I’ve attached some behind-the-scenes, handwritten notes.",
+    "image": "./thumbnail.png"
+  },
+  {
+    "id": 2,
+    "title": "We're Live!",
+    "date": "08-06-2025",
+    "content": "",
+    "summary": "Today marks the occasion of me finally finishing the first version of my portfolio website (this one)! I hadn’t finished a website 100% independently before now. I had a great time! I’ve attached some behind-the-scenes, handwritten notes.",
+    "image": "./thumbnail.png"
+  },
+  {
+    "id": 3,
+    "title": "We're Live!",
+    "date": "08-06-2025",
+    "content": "",
+    "summary": "Today marks the occasion of me finally finishing the first version of my portfolio website (this one)! I hadn’t finished a website 100% independently before now. I had a great time! I’ve attached some behind-the-scenes, handwritten notes.",
+    "image": "./thumbnail.png"
+  }
+]

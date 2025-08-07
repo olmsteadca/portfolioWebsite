@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Liked Songs Manager",
+    "description": "A web tool using the Spotify API to help users remove old or unwanted liked songs based on artist and listening history.",
+    "image": "/thumbnail.png",
+    "tags": [ "React", "Spotify API", "Automation" ],
+    "date": "01/2022 - 01/2023",
+    "link": "https://github.com/celesteolmstead/spotify-liked-songs",
+    "feature": false
+  },
+  {
+    "id": 2,
+    "title": "Fashion Pattern Autograder",
+    "description": "A grading tool that evaluates fashion pattern submissions based on custom rules. Built to streamline assessment and provide feedback efficiently.",
+    "image": "/thumbnail.png",
+    "tags": [ "Python", "Logic Systems", "CLI" ],
+    "date": "01/2022 - 01/2023",
+    "link": "https://github.com/celesteolmstead/pattern-autograder",
+    "feature": false
+  },
+  {
+    "id": 3,
+    "title": "Name Learning Game",
+    "description": "A mobile game designed to help users memorize names and faces in a fun and interactive way. Ideal for educators and team leads.",
+    "image": "/thumbnail.png",
+    "tags": [ "Mobile", "React Native", "UX Design" ],
+    "date": "01/2022 - 01/2023",
+    "link": "https://github.com/celesteolmstead/name-learning-game",
+    "feature": true
+  },
+  {
+    "id": 4,
+    "title": "Astronomy Database",
+    "description": "A database system for cataloging celestial objects and astronomical events, complete with advanced filtering and API access.",
+    "image": "/thumbnail.png",
+    "tags": [ "SQL", "Databases", "API" ],
+    "date": "01/2022 - 01/2023",
+    "link": "https://github.com/celesteolmstead/astronomy-database",
+    "feature": true
+  },
+  {
+    "id": 5,
+    "title": "Tokenizer and Parser",
+    "description": "A custom tokenizer and parser for a simple programming language, developed as part of a compilers course.",
+    "image": "/thumbnail.png",
+    "tags": [ "Compilers", "C++", "Parsing" ],
+    "date": "01/2022 - 01/2023",
+    "link": "https://github.com/celesteolmstead/tokenizer-parser",
+    "feature": false
+  },
+  {
+    "id": 6,
+    "title": "Portfolio Website",
+    "description": "123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789",
+    "image": "/thumbnail.png",
+    "tags": [ "React", "JaveScript", "NodeJS" ],
+    "date": "01/2022 - 01/2023",
+    "link": "https://github.com/celesteolmstead/tokenizer-parser",
+    "feature": true
+  }
+]

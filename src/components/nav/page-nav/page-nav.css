@@ -1,0 +1,30 @@
+.page-nav {
+    border-left: 8px solid #FAFAFA;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    width: min-content;
+    height: fit-content;
+}
+
+.page-nav-content {
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+}
+
+.page-nav-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-left: -1rem;
+}
+
+.section-title {
+    text-align: left;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 1.75rem, 2rem);
+    line-height: 1.75rem;
+    font-family: 'Albert Sans', sans-serif;
+    color: #FAFAFA;
+}

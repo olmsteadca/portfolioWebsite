@@ -1,0 +1,76 @@
+/* background for card */
+.project-card {
+    background-color: #FAFAFA;
+    border-radius: 1rem;
+    width: clamp(75%, 90%, 95%);
+    height: fit-content;
+    justify-self: center;
+    margin: 2rem;
+}
+
+.card-spacing {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.project-thumbnail {
+    border-radius: 1rem 0 0 1rem;
+    object-fit: cover;
+    width: stretch;
+    height: stretch;
+}
+
+.thumbnail-spacing {
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 33%;
+}
+
+.info-group {
+    display: flex;
+    flex-direction: column;
+    width: 66%;
+    padding: 2rem;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc-margin {
+    padding: 1rem;
+}
+
+h1.project-title {
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #D23278;
+    text-transform: uppercase;
+    font-size: clamp(2rem, 2.5rem, 3rem);
+    line-height: 2.5rem;
+}
+
+h2.project-dates {
+    text-align: right;
+    font-weight: 700;
+    font-size: clamp(1.75rem, 2rem, 2.25rem);
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    color: #3658A2;
+}
+
+p.project-description {
+    margin-inline: 2rem;
+    text-align: justify;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 1.75rem, 2rem);
+    font-family: 'Albert Sans', sans-serif;
+    color: #3658A2;
+}
