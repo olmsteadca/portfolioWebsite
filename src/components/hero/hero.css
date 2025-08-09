@@ -8,7 +8,7 @@ p.tagline {
 
 .tagline-margin {
     display: flex;
-    width: 70%;
+    margin-inline: 0.5rem;
 }
 
 .labeled-icon {
@@ -25,7 +25,7 @@ p.tagline {
     gap: 8rem;
     justify-content: center;
     align-content: center;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .hero-section {
@@ -33,7 +33,7 @@ p.tagline {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     width: 100%
 }
 
@@ -44,10 +44,11 @@ h1.greeting {
     color: #3658A2;
     text-transform: uppercase;
     font-size: clamp(3rem, 8rem, 13rem);
+    line-height: 4rem;
 }
 
 .greeting-spacing {
-    height: 22rem;
+    height: 14rem;
 }
 
 .introduction {

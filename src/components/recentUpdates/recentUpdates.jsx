@@ -9,7 +9,7 @@ function recentUpdates() {
 
         <section className="recent-updates" id="recent_updates-section">
             <div className="updates-spacing">
-                <h1 className="title">Recent Updates</h1>
+                <h1 className="r-u-title">Recent Updates</h1>
                     
                     <ul className="updates-list">
                         {updates.map((update) => (
