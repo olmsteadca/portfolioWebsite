@@ -22,10 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-/.vs/portfolioWebsite
 /.vs/portfolioWebsite/FileContentIndex
-/.vs/portfolioWebsite/FileContentIndex/4d03b72d-2577-4242-8482-c5f530a29008.vsidx
 /.vs/portfolioWebsite/FileContentIndex/640eb20b-3bbc-4fa0-bfe4-90cff049b29c.vsidx
+/.vs/portfolioWebsite/FileContentIndex/8cc79df8-f2f4-4481-9474-93a8afd09872.vsidx
 /.vs/portfolioWebsite/FileContentIndex/a66c6169-de8c-47e7-8ed1-f112dc3f22ce.vsidx
 /.vs/portfolioWebsite/FileContentIndex/f09b0308-d5da-4146-8dc4-bd689cf43c88.vsidx
 /.vs/portfolioWebsite/FileContentIndex/f32b8af5-785d-4e25-ad4b-7715a03f0fd1.vsidx
@@ -38,7 +37,3 @@ dist-ssr
 /obj/Debug/portfoliowebsite.esproj.CoreCompileInputs.cache
 /obj/Debug/portfoliowebsite.esproj.FileListAbsolute.txt
 /obj/Release
-/obj/Release/package.g.props
-/obj/Release/portfoliowebsite.esproj.CoreCompileInputs.cache
-/obj/Release/portfoliowebsite.esproj.FileListAbsolute.txt
-/public
