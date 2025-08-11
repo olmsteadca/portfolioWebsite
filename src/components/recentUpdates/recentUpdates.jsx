@@ -3,7 +3,7 @@ import allUpdates from "../../data/updates.json";
 import Update from "./update/update.jsx"
 
 function recentUpdates() {
-    var updates = allUpdates.slice(-3);
+    var updates = allUpdates.slice(-2);
 
     return (
 

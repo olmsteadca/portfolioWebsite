@@ -61,7 +61,7 @@ h1.project-title {
 h2.project-dates {
     text-align: right;
     font-weight: 700;
-    font-size: clamp(1.75rem, 2rem, 2.25rem);
+    font-size: clamp(1.5rem, 1.75rem, 2rem);
     font-family: 'Archivo Narrow', sans-serif;
     text-transform: uppercase;
     color: #3658A2;

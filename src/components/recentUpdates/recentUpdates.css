@@ -20,11 +20,11 @@
 .updates-list {
     display: flex;
     flex-direction: row;
-    justify-self: center;
+    justify-content: left;
     flex-wrap: nowrap;
-    width: fit-content;
     gap: 0.5rem;
     padding: 0rem;
+    overflow: hidden;
 }
 
 h1.r-u-title {
