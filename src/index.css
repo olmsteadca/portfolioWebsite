@@ -41,7 +41,7 @@ body {
     height: fit-content;
     gap: 4rem;
     min-width: 50vw;
-    max-width: 70vw;
+    max-width: 65vw;
     width: contain;
 }
 
@@ -54,6 +54,14 @@ body {
     background-color: rgba(250, 250, 250, 0.4);
     border-radius: 1rem;
     border-bottom: 2px solid rgba(250, 250, 250, 0.6);
+}
+
+.section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 /* background for icons/project cards/update cards/etc. */
