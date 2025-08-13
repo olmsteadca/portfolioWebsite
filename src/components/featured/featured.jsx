@@ -9,7 +9,7 @@ function featured() {
 
         <section className="featured-projects" id="featured-section">
             <div className="featured-spacing">
-                <h1 className="title">Featured Projects</h1>
+                <h1 className="featured-title">Featured Projects</h1>
 
                 <div className="project-list">
                     <ul>

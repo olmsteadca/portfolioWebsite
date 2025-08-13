@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\featured",
+    "\\src\\components\\nav",
+    "\\src\\components\\nav\\page-nav",
+    "\\src\\components\\project",
+    "\\src\\components\\project\\tagGroup",
+    "\\src\\components\\recentUpdates",
+    "\\src\\components\\recentUpdates\\update"
+  ],
+  "SelectedNode": "\\package.json",
+  "PreviewInSolutionExplorer": false
+}

@@ -27,7 +27,7 @@ This means mostly static webpages and possibly some disorganized code.
 
 To reach MVP, I must finish a first implementation for:
 
-- [x]: Home Page
+- [x] Home Page
 - [x] Projects Browser
 - [ ] Updates Browser
 - [ ] About Page
