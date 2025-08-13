@@ -1,8 +1,8 @@
 # Portfolio Website
 
-This repository include all files necessary to build and run my portfolio website. 
-I am developing with Visual Studip, Node.js. Vite, and React.
-I started this project to fulfill mulitple needs:
+This repository includes all files necessary to build and run my portfolio website. 
+I am developing with Visual Studio, Node.js, Vite, and React.
+I started this project to fulfill multiple needs:
 
 1. Showing physical proof of my skills to employers
 2. Finding a way to easily organize all my work from college
@@ -20,7 +20,7 @@ I started this project to fulfill mulitple needs:
 
 ## Current State
 
-Currently, I am purusing a minimum viable product. 
+Currently, I am pursuing a minimum viable product. 
 This means mostly static webpages and possibly some disorganized code.
 
 ## Next Steps
@@ -35,4 +35,4 @@ To reach MVP, I must finish a first implementation for:
 ## Future Improvements
 
 I plan to make this an interactive and professional UI design portfolio.
-This means I need to do more research on State in React. as well as animating UI elements.
+This means I need to do more research on State in React, as well as animating UI elements.
