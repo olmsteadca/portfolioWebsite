@@ -1,6 +1,6 @@
 import './page-nav.css';
 
-function pagenav({ sections }) {
+function PageNav({ sections }) {
     return (
         <div className="page-nav">
             <div className="page-nav-content">
@@ -16,4 +16,4 @@ function pagenav({ sections }) {
     );
 }
 
-export default pagenav;
+export default PageNav;
