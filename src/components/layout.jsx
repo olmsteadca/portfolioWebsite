@@ -4,8 +4,8 @@ import Nav from "@/components/nav/nav.jsx"
 import Footer from "@/components/contactFooter/ContactFooter.jsx"
 
 function Layout() {
-    const location = useLocation();
-    const page = location.pathname;
+    var location = useLocation();
+    var page = location.pathname;
 
     return (
         <div className="layout">
