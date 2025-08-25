@@ -1,16 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src",
     "\\src\\components",
+    "\\src\\components\\autosizeImage",
     "\\src\\components\\featured",
-    "\\src\\components\\nav",
-    "\\src\\components\\nav\\page-nav",
-    "\\src\\components\\project",
-    "\\src\\components\\project\\tagGroup",
-    "\\src\\components\\recentUpdates",
-    "\\src\\components\\recentUpdates\\update"
+    "\\src\\components\\recentUpdates\\update",
+    "\\src\\data",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\src\\pages\\About.jsx",
   "PreviewInSolutionExplorer": false
 }

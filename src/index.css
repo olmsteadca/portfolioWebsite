@@ -122,3 +122,13 @@ h2.title {
     font-family: 'Albert Sans', sans-serif;
     color: #3658A2;
 }
+
+.wrap-row-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
