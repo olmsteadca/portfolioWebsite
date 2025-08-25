@@ -1,8 +1,8 @@
 import "./update.css"
 
-function update({ title, date, summary, image }) {
+function update({id, title, date, summary, image }) {
   return (
-      <section className="update">
+      <section className="update" key={id}>
           <div className="update-spacing">
 
               <div className="image-spacing">
