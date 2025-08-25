@@ -1,0 +1,8 @@
+.imageSizing {
+    height: inherit;
+    width: contain;
+    align-content: center;
+    justify-content: center;
+    border-radius: 1rem;
+    border: none;
+}
