@@ -1,17 +1,16 @@
-import "./featured.css"
-import Project from "../project/project.jsx"
-import Projects from "../../data/projects.json"
+import Project from "./project/project.jsx"
+import Projects from "../data/projects.json"
 
 
 function featured() {
     var featuredProjects = Projects.filter(project => project.feature);
     return (
 
-        <section className="featured-projects" id="featured-section">
-            <div className="featured-spacing">
-                <h1 className="featured-title">Featured Projects</h1>
+        <section id="featured-projects-section">
+            <div className="section-content">
+                <h1 className="title">Featured Projects</h1>
 
-                <div className="project-list">
+                <div className="flex-card-column">
                     <ul>
                         {featuredProjects.map((project) => (
                             <Project

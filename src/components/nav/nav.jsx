@@ -8,7 +8,7 @@ function Nav({ page }) {
     const aboutSections = ["Introduction", "Featured Projects", "Recent Updates", "Get in Touch!"];
 
     return (
-        <nav className="navbar">
+        <nav id="navbar">
             <div className="navbar-content">
                 <ul className="navbar-links">
                     <li>

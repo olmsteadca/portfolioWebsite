@@ -5,11 +5,9 @@
 /* page background */
 body {
     margin: 1rem auto;
-    background-image: linear-gradient(to bottom, #F0AECB, #A9BAE5);
+    justify-items: center;
+    background-image: linear-gradient(to bottom, #B4507F, #536fb5);
     background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    gap: 1.25rem;
     min-height: 100vh;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
@@ -20,17 +18,13 @@ body {
     display: none;
 }
 
+
+/* space for navbar */
 .nav-container {
     position: fixed;
     left: 0;
     top: 0;
     padding: 1rem;
-}
-
-.layout {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
 }
 
 /* flex container for all page content */
@@ -40,95 +34,122 @@ body {
     align-items: center;
     height: fit-content;
     gap: 4rem;
-    min-width: 50vw;
-    max-width: 65vw;
-    width: contain;
+    padding: 1rem;
+    width: clamp(35vw, 55vw, 75vw);
 }
 
-/* background for each section */
-.section-container {
-    display: flex;
+/* background for icons/project cards/update cards/etc. */
+.card-container {
     justify-content: center;
+    justify-self: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+}
+
+/* container used for highest priority info (like hero section) */
+.transparent-container {
+    background-color: rgba(250, 250, 250, 0.6);
+    border-radius: 1rem;
+    justify-content: center;
+    justify-self: center;
     width: 100%;
     height: fit-content;
-    background-color: rgba(250, 250, 250, 0.4);
     border-radius: 1rem;
-    border-bottom: 2px solid rgba(250, 250, 250, 0.6);
 }
 
-.section-content{
+/* spacing for section content */
+.section-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    gap: 2rem;
 }
 
-/* background for icons/project cards/update cards/etc. */
-.opaque-container {
+/* resusable spacing */
+.flex-icon-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8rem;
     justify-content: center;
-    justify-self: center;
-    width: fit-content;
-    height: fit-content;
-    background-color: #FAFAFA;
-    border-radius: 1rem;
+    align-content: center;
 }
 
+.flex-card-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.flex-card-column {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
 
 /* text styling */
+
+/* section headers*/
 h1.title {
     text-align: center;
     font-weight: 700;
     font-family: 'Archivo Narrow', sans-serif;
-    color: #3658A2;
+    color: #FFFFFF;
     text-transform: uppercase;
-    font-size: clamp(2rem, 5rem, 8rem);
-    line-height: 8rem;
+    font-size: clamp(4rem, 6rem, 8rem);
+    line-height: 0rem;
+    white-space: nowrap;
 }
 
+h1.hero-title {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #29478A;
+    text-transform: uppercase;
+    font-size: clamp(6rem, 8rem, 10rem);
+    line-height: 0rem;
+    white-space: nowrap;
+}
+
+/* titles of components within a section*/
 h2.title {
     text-align: center;
     font-weight: 700;
     font-family: 'Archivo Narrow', sans-serif;
-    color: #3658A2;
+    color: #29478A;
     text-transform: uppercase;
     font-size: clamp(2rem, 2.5rem, 3rem);
     line-height: 4rem;
 }
 
-.subtitle {
+p.body {
+    text-align: center;
+    font-weight: 600;
+    font-size: clamp(1.5rem, 2rem, 2.5rem);
+    font-family: 'Albert Sans', sans-serif;
+    color: #29478A;
+}
+
+/* used for emphasized text or captions */
+p.subtitle {
     text-align: center;
     font-weight: 700;
     font-size: 36px;
-    font-family: 'Archivo Narrow', sans-serif;
-    text-transform: uppercase;
-    line-height: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
-
-    .subtitle .navy {
-        color: #3658A2;
-    }
-
-    .subtitle .pink {
-        color: #D23278;
-    }
-
-.paragraph {
-    text-align: center;
-    font-weight: 600;
-    font-size: 36px;
     font-family: 'Albert Sans', sans-serif;
-    color: #3658A2;
-}
-
-.wrap-row-center {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.5rem;
+    text-transform: lowercase;
+    line-height: 1rem;
+    margin-inline: 1rem;
+    color: #D23278;
 }

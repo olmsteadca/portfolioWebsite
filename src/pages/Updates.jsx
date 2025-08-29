@@ -1,4 +1,4 @@
-import Update from '../components/recentUpdates/update/update.jsx'
+import Update from '../components/update/update.jsx'
 import allUpdates from '../data/updates.json'
 
 function updates() {
@@ -6,7 +6,7 @@ function updates() {
         <div className="section-container">
             <div className="section-content">
                 <h1 className="title">Updates</h1>
-                <ul className="wrap-row-center">
+                <ul className="flex-card-row">
                     {allUpdates.map((update) => (
                         <Update
                             id={update.id}
