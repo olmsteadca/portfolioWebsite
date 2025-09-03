@@ -42,8 +42,6 @@ body {
 .card-container {
     justify-content: center;
     justify-self: center;
-    width: fit-content;
-    height: fit-content;
     background-color: #FFFFFF;
     border-radius: 1rem;
 }
@@ -89,10 +87,37 @@ body {
     padding: 1rem;
 }
 
-.flex-card-column {
+.flex-card-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.flex-card-row-nowrap {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.flex-card-column {
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
+    justify-content: center;
+    align-content: center;
+    padding: 1rem;
+}
+
+.flex-text-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     justify-content: center;
     align-content: center;
     padding: 1rem;
@@ -132,6 +157,17 @@ h2.title {
     text-transform: uppercase;
     font-size: clamp(2rem, 2.5rem, 3rem);
     line-height: 4rem;
+}
+
+/* headers within cards */
+h3.title {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #29478A;
+    text-transform: uppercase;
+    font-size: clamp(1.5rem, 2rem, 2.5rem);
+    line-height: 0rem;
 }
 
 p.body {

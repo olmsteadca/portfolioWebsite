@@ -14,13 +14,5 @@
     "content": "./updateContents/goodbyeMSWord",
     "summary": "Today I opened up Microsoft Word to take notes on the autonomic nervous system, when I saw a tiny yellow banner at the top announcing terrible news: MS WORD IS NO LONGER!! So I, of course, got to scheming.",
     "image": "./thumbnail.png"
-  },
-  {
-    "id": 3,
-    "title": "We're Live!",
-    "date": "08-06-2025",
-    "content": "",
-    "summary": "Today marks the occasion of me finally finishing the first version of my portfolio website (this one)! I hadn’t finished a website 100% independently before now. I had a great time! I’ve attached some behind-the-scenes, handwritten notes.",
-    "image": "./notrealyet.png"
   }
 ]

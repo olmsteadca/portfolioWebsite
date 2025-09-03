@@ -1,8 +1,8 @@
 import allUpdates from "../data/updates.json";
-import Update from "./update/update.jsx"
+import Update from "./update.jsx"
 
 function recentUpdates() {
-    var updates = allUpdates.slice(-3);
+    var updates = allUpdates.slice(-2);
 
     var path = "/GoodbyeMSWord"
 
@@ -12,7 +12,7 @@ function recentUpdates() {
             <div className="section-content">
                 <h1 className="title">Recent Updates</h1>
                     
-                    <ul className="flex-card-row">
+                    <ul className="flex-card-row-nowrap">
                     {updates.map((update) => (
                         <Update
                             key={update.id}
