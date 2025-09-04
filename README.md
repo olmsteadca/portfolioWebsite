@@ -23,6 +23,11 @@ I started this project to fulfill multiple needs:
 Currently, I am pursuing a minimum viable product. 
 This means mostly static webpages and possibly some disorganized code.
 
+## Current Focus
+
+This project is also mean to be my reintroduction to React, so I am reworking my existing code that I sort of brute forced together.
+This involves removing unnecessary complexity in file structure, styles, and components themselves - in hopes that these reworks make implementing interactive components easier.
+
 ## Next Steps
 
 To reach MVP, I must finish a first implementation for:

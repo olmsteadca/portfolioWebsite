@@ -10,9 +10,8 @@ function featured() {
             <div className="section-content">
                 <h1 className="title">Featured Projects</h1>
 
-                <div className="flex-card-column">
-                    <ul>
-                        {featuredProjects.map((project) => (
+                <ul className="flex-column" style={{padding : "0"}}>
+                    {featuredProjects.map((project) => (
                             <Project
                                 key={project.id}
                                 title={project.title}
@@ -22,8 +21,8 @@ function featured() {
                                 tags={project.tags}
                             />
                         ))}
-                    </ul>
-                </div>
+                </ul>
+
             </div>
         </section>
     );

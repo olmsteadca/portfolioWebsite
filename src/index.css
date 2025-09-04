@@ -77,14 +77,14 @@ body {
     align-content: center;
 }
 
-.flex-card-row {
+.flex--row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: center;
     align-content: center;
-    padding: 1rem;
+    padding: 0;
 }
 
 .flex-card-grid {
@@ -92,26 +92,26 @@ body {
     gap: 1rem;
     justify-content: center;
     align-content: center;
-    padding: 1rem;
+    padding: 0;
 }
 
-.flex-card-row-nowrap {
+.flex-row-nowrap {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 1rem;
     justify-content: center;
     align-content: center;
-    padding: 1rem;
+    padding: 0;
 }
 
-.flex-card-column {
+.flex-column {
     display: flex;
     flex-direction: column;
     gap: 2rem;
     justify-content: center;
     align-content: center;
-    padding: 1rem;
+    padding: 0;
 }
 
 .flex-text-column {
@@ -137,7 +137,7 @@ h1.title {
     white-space: nowrap;
 }
 
-h1.hero-title {
+h1.big-title {
     text-align: center;
     font-weight: 700;
     font-family: 'Archivo Narrow', sans-serif;

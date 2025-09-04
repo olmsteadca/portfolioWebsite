@@ -20,7 +20,7 @@ function Hero() {
         <section id="introduction_section" className="transparent-container">
             <div className="section-content">
 
-                <h1 className="hero-title">Hi, I'm Celeste!</h1>
+                <h1 className="big-title">Hi, I'm Celeste!</h1>
                 <Subtitle text="Full Stack Developer | UI Designer" />
 
 

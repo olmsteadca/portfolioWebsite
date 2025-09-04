@@ -12,7 +12,7 @@ function recentUpdates() {
             <div className="section-content">
                 <h1 className="title">Recent Updates</h1>
                     
-                    <ul className="flex-card-row-nowrap">
+                <ul className="flex-row-nowrap">
                     {updates.map((update) => (
                         <Update
                             key={update.id}

@@ -1,16 +1,18 @@
 import "./project.css"
-import TagGroup from "./tagGroup/tagGroup.jsx";
+import Image from "../image.jsx"
+import TagGroup from "./tagGroup/tagGroup.jsx"
 
 
 function projectCard({ title , date, desc, thumbnail, tags }) {
     return (
-            <div className="project-card">
+            <div className="card-container">
                 <div className="card-spacing">
 
 
-                    <div className="thumbnail-spacing">
-                        <img src={thumbnail} className="project-thumbnail"/>
-                    </div>
+                <Image
+                    src={thumbnail}
+                    use="left"
+                 />
 
 
                     <div className="info-group">
