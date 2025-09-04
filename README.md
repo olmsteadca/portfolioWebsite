@@ -34,7 +34,7 @@ To reach MVP, I must finish a first implementation for:
 
 - [x] Home Page
 - [x] Projects Browser
-- [ ] Updates Browser
+- [x] Updates Browser
 - [ ] About Page
 
 ## Future Improvements
