@@ -9,11 +9,13 @@ function Hero() {
         marginInline: "1rem"
     };
 
-    const labeledIcon = {
+    const flexIconRow = {
         display: "flex",
-        flexDirection: "column",
+        flexDirection: "row",
+        flexWrap: "nowrap",
+        gap: "8rem",
         justifyContent: "center",
-        alignItems: "center"
+        alignContent: "center"
     };
 
     return (
@@ -30,9 +32,9 @@ function Hero() {
                     </p>
                 </div>
 
-                <div className="flex-icon-row">
+                <div style={flexIconRow}>
 
-                    <div style={labeledIcon}>
+                    <div className="flex-column">
                         <Icon
                             image="./adaptable.svg"
                             alt="adaptable puzzle piece icon"
@@ -40,7 +42,7 @@ function Hero() {
                         <h2 className="title">Adaptable</h2>
                     </div>
 
-                    <div style={labeledIcon}>
+                    <div className="flex-column">
                         <Icon
                             image="./intuitive.svg"
                             alt="intuitive lightbulb icon"
@@ -48,7 +50,7 @@ function Hero() {
                         <h2 className="title">Intuitive</h2>
                     </div>
 
-                    <div style={labeledIcon}>
+                    <div className="flex-column">
                         <Icon
                             image="./accessible.svg"
                             alt="universal person icon"

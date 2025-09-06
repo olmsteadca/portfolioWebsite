@@ -6,7 +6,7 @@ function update({ id, title, date, summary, image, path }) {
     return (
         <Link to={path} style={{textDecoration : "none"}}>
 
-            <div className="card-container" key={id}>
+            <div className="card-container" key={id} style={{height: "1100px"}} >
                 <div>
 
                     <Image
@@ -14,7 +14,7 @@ function update({ id, title, date, summary, image, path }) {
                         use="top"
                     />
 
-                    <div className="flex-text-column">
+                    <div className="flex-column" style={{marginInline: "2rem"}}>
 
                         <div className="flex-row">
                             <h2 className="title">{title}</h2>

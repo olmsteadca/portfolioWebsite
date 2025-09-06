@@ -5,7 +5,7 @@ import "./nav.css"
 function Nav({ page }) {
 
     const homeSections = ["Introduction", "Featured Projects", "Recent Updates", "Get in Touch!"];
-    const aboutSections = ["Introduction", "Featured Projects", "Recent Updates", "Get in Touch!"];
+    const aboutSections = ["Summary", "Work History", "Fun Facts!"];
 
     return (
         <nav id="navbar">

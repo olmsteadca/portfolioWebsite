@@ -1,10 +1,12 @@
+/*TODO: fill bottom image and right image if necessary */
+
 function Image({ src, use }) {
 
     var returnValue;
 
     const midImage = {
         borderRadius: "1rem 1rem 1rem 1rem",
-        height: "500px",
+        height: "contain",
         width: "500px"
     };
 
@@ -23,7 +25,7 @@ function Image({ src, use }) {
         borderRadius: "1rem 0 0 1rem",
         objectFit: "cover",
         height: "500px",
-        width: "500px"
+        width: "450px"
     };
 
     const rightImage = {
