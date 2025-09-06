@@ -6,7 +6,7 @@ function Projects() {
         <div className="section-container">
             <div className="section-content">
                 <h1 className="title">My Projects</h1>
-                <ul>
+                <ul className="flex-column">
                     {allProjects.map((project) => (
                         <Project
                             key={project.id}

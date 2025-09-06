@@ -1,19 +1,17 @@
-import "./featured.css"
-import Project from "../project/project.jsx"
-import Projects from "../../data/projects.json"
+import Project from "./project/project.jsx"
+import Projects from "../data/projects.json"
 
 
 function featured() {
     var featuredProjects = Projects.filter(project => project.feature);
     return (
 
-        <section className="featured-projects" id="featured-section">
-            <div className="featured-spacing">
-                <h1 className="featured-title">Featured Projects</h1>
+        <section id="featured-projects-section">
+            <div className="section-content">
+                <h1 className="title">Featured Projects</h1>
 
-                <div className="project-list">
-                    <ul>
-                        {featuredProjects.map((project) => (
+                <ul className="flex-column" style={{padding : "0"}}>
+                    {featuredProjects.map((project) => (
                             <Project
                                 key={project.id}
                                 title={project.title}
@@ -23,8 +21,8 @@ function featured() {
                                 tags={project.tags}
                             />
                         ))}
-                    </ul>
-                </div>
+                </ul>
+
             </div>
         </section>
     );
