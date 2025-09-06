@@ -37,3 +37,4 @@ dist-ssr
 /obj/Debug/portfoliowebsite.esproj.CoreCompileInputs.cache
 /obj/Debug/portfoliowebsite.esproj.FileListAbsolute.txt
 /obj/Release
+/.vs/slnx.sqlite

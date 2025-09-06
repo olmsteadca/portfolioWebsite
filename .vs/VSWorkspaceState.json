@@ -6,10 +6,8 @@
     "\\src\\components",
     "\\src\\components\\autosizeImage",
     "\\src\\components\\featured",
-    "\\src\\components\\recentUpdates\\update",
     "\\src\\data",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\pages\\About.jsx",
   "PreviewInSolutionExplorer": false
 }
