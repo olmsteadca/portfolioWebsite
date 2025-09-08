@@ -1,45 +1,33 @@
-import Subtitle from "./subtitle.jsx"
-import Icon from "./icon/icon.jsx"
+import Icon from "./icon.jsx"
 
 function Hero() {
-
-    const taglineMargin = {
-        display: "flex",
-        width: "80%",
-        marginInline: "1rem"
-    };
-
-    const flexIconRow = {
-        display: "flex",
-        flexDirection: "row",
-        flexWrap: "nowrap",
-        gap: "8rem",
-        justifyContent: "center",
-        alignContent: "center"
-    };
 
     return (
         <section id="introduction_section" className="transparent-container">
             <div className="section-content">
 
-                <h1 className="big-title">Hi, I'm Celeste!</h1>
-                <Subtitle text="Full Stack Developer | UI Designer" />
+                <h1 style={{ fontSize: "8rem", color: "#29478A" }}>
+                    Hi, I'm Celeste!
+                </h1>
 
-
-                <div style={taglineMargin}>
-                    <p className="body">
-                        I want to help you deliver products your users want to engage with! To make that happen, I focus on designs that are: 
-                    </p>
+                <div className="card-container" style={{ backgroundColor: "#FAFAFA" }}>
+                    <h4 style={{ color: "#D23278", fontSize: "2rem", marginInline: "1rem" }}>Full Stack Developer | UI Designer</h4>
                 </div>
 
-                <div style={flexIconRow}>
+
+                <p style={{ marginInline: "8rem" }}>
+                    I want to help you deliver products your users want to engage with! To make that happen, I focus on designs that are: 
+                </p>
+
+
+                <div className="flex-row" style={{gap: "8rem"}}>
 
                     <div className="flex-column">
                         <Icon
                             image="./adaptable.svg"
                             alt="adaptable puzzle piece icon"
                         />
-                        <h2 className="title">Adaptable</h2>
+                        <h2>Adaptable</h2>
                     </div>
 
                     <div className="flex-column">
@@ -47,7 +35,7 @@ function Hero() {
                             image="./intuitive.svg"
                             alt="intuitive lightbulb icon"
                         />
-                        <h2 className="title">Intuitive</h2>
+                        <h2>Intuitive</h2>
                     </div>
 
                     <div className="flex-column">
@@ -55,7 +43,7 @@ function Hero() {
                             image="./accessible.svg"
                             alt="universal person icon"
                         />
-                        <h2 className="title">Accessible</h2>
+                        <h2>Accessible</h2>
                     </div>
                 </div>
                 

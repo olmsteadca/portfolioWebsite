@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
-import PageLinks from "./page-nav/page-nav.jsx";
-import "./nav.css"
+import PageLinks from "./page-nav.jsx";
 
 function Nav({ page }) {
 
@@ -9,26 +8,33 @@ function Nav({ page }) {
 
     return (
         <nav id="navbar">
-            <div className="navbar-content">
-                <ul className="navbar-links">
-                    <li>
-                        <Link to="/" className="navbar-link">Home</Link>
-                        {page == "/" && (
+            <div className="section-content">
+                <ul className="flex-column" style={{listStyle: "none" , alignItems: "flex-start"}}>
 
-                            <PageLinks sections={homeSections} />
-                        )}
-                    </li>
+                    <Link to="/" style={{ textDecoration: "none" }}>
+                        <h2 style={{ color: "#FFFFFF", textAlign: "left" }}>Home</h2>
+                    </Link>
 
-                    <li><Link to="/Projects" className="navbar-link">Projects</Link></li>
-                    <li><Link to="/Updates" className="navbar-link">Updates</Link></li>
+                    {page == "/" && (
+                        <PageLinks sections={homeSections} />
+                    )}
 
-                    <li>
-                        <Link to="/About" className="navbar-link">About</Link>
-                        {page == "/About" && (
+                    <Link to="/Projects" style={{ textDecoration: "none" }}>
+                        <h2 style={{ color: "#FFFFFF", textAlign: "left" }}>Projects</h2>
+                    </Link>
 
-                            <PageLinks sections={aboutSections} />
-                        )}
-                    </li>
+                    <Link to="/Updates" style={{ textDecoration: "none" }}>
+                        <h2 style={{ color: "#FFFFFF", textAlign: "left" }}>Updates</h2>
+                    </Link>
+
+                    <Link to="/About" style={{ textDecoration: "none" }}>
+                        <h2 style={{ color: "#FFFFFF", textAlign: "left" }}>About</h2>
+                    </Link>
+
+                    {page == "/About" && (
+                        <PageLinks sections={aboutSections} />
+                    )}
+
                 </ul>
             </div>
         </nav>

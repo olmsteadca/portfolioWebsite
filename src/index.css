@@ -1,5 +1,5 @@
 /* importing Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600;800&display=swap');
 
 /* page background */
@@ -19,7 +19,7 @@ body {
 }
 
 
-
+    
 
 /* flex container for navbar */
 .nav-container {
@@ -64,31 +64,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    gap: 1.75rem;
+    padding: 2rem;
+    gap: 1rem;
 }
 
 .flex-row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    padding: 0;
-}
-
-.flex-card-grid {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-}
-
-.flex-row-nowrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     gap: 1rem;
     justify-content: center;
     padding: 0;
@@ -107,10 +90,10 @@ body {
 
 
 /* section headers*/
-h1.title {
+h1 {
     text-align: center;
     font-weight: 700;
-    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Lexend', sans-serif;
     color: #FFFFFF;
     text-transform: uppercase;
     font-size: clamp(4rem, 6rem, 8rem);
@@ -118,40 +101,39 @@ h1.title {
     white-space: nowrap;
 }
 
-h1.big-title {
-    text-align: center;
-    font-weight: 700;
-    font-family: 'Archivo Narrow', sans-serif;
-    color: #29478A;
-    text-transform: uppercase;
-    font-size: clamp(6rem, 8rem, 10rem);
-    line-height: 0rem;
-    white-space: nowrap;
-}
-
 /* titles of components within a section*/
-h2.title {
+h2 {
     text-align: center;
     font-weight: 700;
-    font-family: 'Archivo Narrow', sans-serif;
-    color: #29478A;
+    font-family: 'Lexend', sans-serif;
     text-transform: uppercase;
     font-size: clamp(2rem, 2.5rem, 3rem);
     line-height: 1rem;
+    color: #29478A;
 }
 
 /* headers within cards */
-h3.title {
-    text-align: center;
+h3 {
     font-weight: 700;
-    font-family: 'Archivo Narrow', sans-serif;
-    color: #29478A;
+    font-family: 'Lexend', sans-serif;
     text-transform: uppercase;
     font-size: clamp(1.5rem, 2rem, 2.5rem);
     line-height: 1rem;
+    color: #29478A;
 }
 
-p.body {
+/* used for emphasized text or captions */
+h4 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Albert Sans', sans-serif;
+    text-transform: lowercase;
+    line-height: 1rem;
+}
+
+/* all body text */
+p {
     text-align: center;
     font-weight: 600;
     font-size: clamp(1.5rem, 2rem, 2.5rem);
@@ -159,14 +141,3 @@ p.body {
     color: #29478A;
 }
 
-/* used for emphasized text or captions */
-p.subtitle {
-    text-align: center;
-    font-weight: 700;
-    font-size: 36px;
-    font-family: 'Albert Sans', sans-serif;
-    text-transform: lowercase;
-    line-height: 1rem;
-    margin-inline: 1rem;
-    color: #D23278;
-}

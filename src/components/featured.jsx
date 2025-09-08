@@ -1,4 +1,4 @@
-import Project from "./project/project.jsx"
+import Project from "./project.jsx"
 import Projects from "../data/projects.json"
 
 
@@ -8,7 +8,7 @@ function featured() {
 
         <section id="featured-projects-section">
             <div className="section-content">
-                <h1 className="title">Featured Projects</h1>
+                <h1>Featured Projects</h1>
 
                 <ul className="flex-column" style={{padding : "0"}}>
                     {featuredProjects.map((project) => (

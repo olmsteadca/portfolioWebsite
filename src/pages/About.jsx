@@ -11,13 +11,13 @@ function About() {
                         src="/portrait-sims.jpg"
                     />
                 
-                    <h1 className="big-title">Celeste Olmstead</h1>
+                    <h1 style={{ fontSize: "8rem", color:"#29478A"}}>Celeste Olmstead</h1>
 
-                    <p className="body">I start with an introduction. Then I talk about why I made this website.</p>
-                    <p className="body">Then I give the some more information about me. Work wise, I'm curious and passionate with a great work ethic.</p>
-                    <p className="body">I s    olve problems using my analytical thinking and creativity. I love computers.</p>
-                    <p className="body">This is where I probably write too much about liking video games.</p>
-                    <p className="body">Currently working on this website :P</p>
+                    <p>I start with an introduction. Then I talk about why I made this website.</p>
+                    <p>Then I give the some more information about me. Work wise, I'm curious and passionate with a great work ethic.</p>
+                    <p>I solve problems using my analytical thinking and creativity. I love computers.</p>
+                    <p>This is where I probably write too much about liking video games.</p>
+                    <p>Currently working on this website :P</p>
                 </div>
             </div>
 
@@ -30,8 +30,8 @@ function About() {
 
             <div className="section-container">
                 <div className="section content">
-                    <h1 className="title">Fun Facts!</h1>
-                    <h2 className="title"></h2>
+                    <h1>Fun Facts!</h1>
+                    <h2></h2>
                 </div>
             </div>
         </>

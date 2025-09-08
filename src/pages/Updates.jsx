@@ -6,7 +6,7 @@ function updates() {
         <div className="section-container">
             <div className="section-content">
                 <h1 className="title">Updates</h1>
-                <ul className="flex-card-grid">
+                <ul className="flex-row" style={{flexWrap: "nowrap"}}>
                     {allUpdates.map((update) => (
                         <Update
                             id={update.id}
