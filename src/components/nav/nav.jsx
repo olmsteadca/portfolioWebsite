@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import PageLinks from "./page-nav.jsx";
+import PageLinks from "./PageNav.jsx";
 
 function Nav({ page }) {
 

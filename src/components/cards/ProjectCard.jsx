@@ -1,5 +1,5 @@
-import Image from "./image.jsx"
-import TagGroup from "./tagGroup.jsx"
+import Image from "../image.jsx"
+import TagGroup from "../tagGroup.jsx"
 
 
 function projectCard({ title , date, desc, thumbnail, tags }) {

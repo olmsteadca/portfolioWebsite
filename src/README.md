@@ -9,4 +9,4 @@ This repository includes all code and data for the website.
 | **/pages** | *Contains all different pages* |
 | **/App.jsx** | *Handles routing* |
 | **/index.css** | *Common styles like text and container backgrounds* |
-| **/main.jsx** | *Starts App* |
+| **/main.jsx** | *Starts App in Strict Mode* |

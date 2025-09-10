@@ -1,5 +1,5 @@
-import Update from '../components/update.jsx'
-import allUpdates from '../data/updates.json'
+import Update from "@/components/cards/UpdateCard"
+import allUpdates from "@/data/projects.json"
 
 function updates() {
     return (

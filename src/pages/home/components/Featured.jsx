@@ -1,5 +1,5 @@
-import Project from "./project.jsx"
-import Projects from "../data/projects.json"
+import Project from "@/components/cards/ProjectCard"
+import Projects from "@/data/projects.json"
 
 
 function featured() {

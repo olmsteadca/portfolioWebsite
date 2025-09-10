@@ -1,5 +1,5 @@
-import allUpdates from "../data/updates.json";
-import Update from "./update.jsx"
+import allUpdates from "@/data/updates.json"
+import Update from "@/components/cards/UpdateCard"
 
 function recentUpdates() {
     var updates = allUpdates.slice(-2);

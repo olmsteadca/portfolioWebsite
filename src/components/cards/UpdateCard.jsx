@@ -1,10 +1,9 @@
 import { Link } from 'react-router-dom';
-import Image from "./image.jsx"
+import Image from "@/components/image.jsx"
 
-function update({ id, title, date, summary, image, path }) {
+function update({ id, title, date, summary, image }) {
 
     return (
-        <Link to={path} style={{textDecoration : "none"}}>
 
             <div className="card-container" key={id} style={{height: "1000px"}} >
                 <div>
@@ -30,9 +29,9 @@ function update({ id, title, date, summary, image, path }) {
 
                     </div>
 
-                </div>
             </div>
-        </Link>
+        </div>
+
 
   );
 }

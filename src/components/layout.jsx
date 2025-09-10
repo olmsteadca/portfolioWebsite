@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
-import Nav from "../components/nav/nav.jsx"
+import Nav from "@/components/nav/nav.jsx"
 
 function Layout() {
     var location = useLocation();

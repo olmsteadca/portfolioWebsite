@@ -1,4 +1,7 @@
-import Icon from "./icon.jsx"
+import Icon from "@/components/icon.jsx"
+import adaptable from "@/pages/home/assets/adaptable.svg"
+import intuitive from "@/pages/home/assets/intuitive.svg"
+import accessible from "@/pages/home/assets/accessible.svg"
 
 function Hero() {
 
@@ -24,7 +27,7 @@ function Hero() {
 
                     <div className="flex-column">
                         <Icon
-                            image="./adaptable.svg"
+                            image={adaptable}
                             alt="adaptable puzzle piece icon"
                         />
                         <h2>Adaptable</h2>
@@ -32,7 +35,7 @@ function Hero() {
 
                     <div className="flex-column">
                         <Icon
-                            image="./intuitive.svg"
+                            image={intuitive}
                             alt="intuitive lightbulb icon"
                         />
                         <h2>Intuitive</h2>
@@ -40,7 +43,7 @@ function Hero() {
 
                     <div className="flex-column">
                         <Icon
-                            image="./accessible.svg"
+                            image={accessible}
                             alt="universal person icon"
                         />
                         <h2>Accessible</h2>

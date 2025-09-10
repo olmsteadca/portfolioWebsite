@@ -1,4 +1,5 @@
-import Image from "../components/image.jsx"
+import Image from "@/components/image.jsx"
+import portrait from "@/pages/about/assets/portrait-sims.jpg"
 
 function About() {
 
@@ -8,7 +9,7 @@ function About() {
                 <div className="section-content">
                     
                     <Image
-                        src="/portrait-sims.jpg"
+                        src={portrait}
                     />
                 
                     <h1 style={{ fontSize: "8rem", color:"#29478A"}}>Celeste Olmstead</h1>
