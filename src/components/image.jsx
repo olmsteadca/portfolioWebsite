@@ -24,8 +24,8 @@ function Image({ src, use }) {
     const leftImage = {
         borderRadius: "1rem 0 0 1rem",
         objectFit: "cover",
-        height: "500px",
-        width: "450px"
+        height: "stretch",
+        width: "288px"
     };
 
     const rightImage = {

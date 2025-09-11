@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import Image from "@/components/image.jsx"
+import "./updateCard.css"
 
 function update({ id, title, date, summary, image }) {
 
     return (
 
-            <div className="card-container" key={id} style={{height: "1000px"}} >
+            <div className="update-container" key={id}>
                 <div>
 
                     <Image
@@ -19,7 +20,7 @@ function update({ id, title, date, summary, image }) {
                             <h2 style={{ color: "#D23278", marginBottom: "4rem"}}>{title}</h2>
                         </div>
 
-                        <div className="flex-row" style={{position: "absolute", top: "15%"}}>
+                        <div className="flex-row" style={{position: "absolute", top: "20%"}}>
                             <h3>{date}</h3>
                         </div>
 

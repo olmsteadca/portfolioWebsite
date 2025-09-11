@@ -1,4 +1,4 @@
-import Project from "@/components/cards/ProjectCard"
+import Project from "$/projects/components/ProjectCard"
 import Projects from "@/data/projects.json"
 
 
@@ -10,7 +10,7 @@ function featured() {
             <div className="section-content">
                 <h1>Featured Projects</h1>
 
-                <ul className="flex-column" style={{padding : "0"}}>
+                <ul className="flex-column" style={{padding : "2rem"}}>
                     {featuredProjects.map((project) => (
                             <Project
                                 key={project.id}

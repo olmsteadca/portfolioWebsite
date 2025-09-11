@@ -1,0 +1,36 @@
+.work-table {
+    border-radius: 12px;
+    box-shadow: 0 0 0 3px #e0e7ef, 0 2px 12px rgba(180,196,242,0.15);
+    overflow: hidden;
+    background: #fff;
+    min-width: 40%;
+    margin-left: 4rem;
+    height: fit-content;
+    align-self: center;
+}
+
+.work-row-table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px 8px 18px;
+    font-size: 1.1rem;
+    background: #fff;
+}
+
+    .work-row-table.alt {
+        background: #e8ecf5;
+    }
+
+p.work-company {
+    color: #d83b7d;
+    font-weight: bold;
+    text-align: left;
+}
+
+p.work-date-table {
+    color: #3557a7;
+    text-align: right;
+    white-space: nowrap;
+    font-size: 1.5rem;
+}

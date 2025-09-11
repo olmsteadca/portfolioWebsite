@@ -1,0 +1,20 @@
+h2.nav-link-text {
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 2rem;
+}
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-column {
+    list-style: none;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+h3.nav-link-text {
+    text-align: left;
+    color: #FFFFFF;
+    line-height: 2rem;
+}

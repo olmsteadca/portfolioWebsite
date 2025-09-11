@@ -1,12 +1,12 @@
-import Update from "@/components/cards/UpdateCard"
-import allUpdates from "@/data/projects.json"
+import Update from "./components/UpdateCard"
+import allUpdates from "@/data/updates.json"
 
 function updates() {
     return (
-        <div className="section-container">
+        <div className="transparent-container" style={{ marginBottom: "2rem" }}>
             <div className="section-content">
-                <h1 className="title">Updates</h1>
-                <ul className="flex-row" style={{flexWrap: "nowrap"}}>
+                <h1 style={{ color: "#29478A" }}>Updates</h1>
+                <ul className="flex-grid">
                     {allUpdates.map((update) => (
                         <Update
                             id={update.id}

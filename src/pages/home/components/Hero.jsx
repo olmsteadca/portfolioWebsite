@@ -13,8 +13,8 @@ function Hero() {
                     Hi, I'm Celeste!
                 </h1>
 
-                <div className="card-container" style={{ backgroundColor: "#FAFAFA" }}>
-                    <h4 style={{ color: "#D23278", fontSize: "2rem", marginInline: "1rem" }}>Full Stack Developer | UI Designer</h4>
+                <div className="opaque-container" style={{ backgroundColor: "#FAFAFA", height: "6rem"}}>
+                    <h4 style={{ color: "#D23278", fontSize: "2rem", marginInline: "1rem", lineHeight: "2rem", marginBlock: "2rem"}}>Full Stack Developer | UI Designer</h4>
                 </div>
 
 

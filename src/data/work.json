@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "title": "GameStop",
+    "dates": "9/2024 - 8/2025",
+    "desc": "Customers noticed the effect my attention to detail had on their shopping experience. Many times, I heard, \"This is the best GameStop I've ever been to,\" with remarks about how clean and organized our store was. My favorite parts of the job were helping customers troubleshoot console issues and setting up displays. Here I found my love for the essence of UX design: understanding how the user thinks.",
+    "tags": [
+      "phone etiquette",
+      "sales",
+      "detail-oriented",
+      "customer service"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "University",
+    "dates": "1/2023 - 2/2024",
+    "desc": "During college, I continued to hone my customer service and leadership skills within the food service industry. I balanced a full course load and 20 hours a week to pay rent.",
+    "jobs": [
+      {
+        "company": "subway",
+        "date": "12/2019–8/2022"
+      },
+      {
+        "company": "insomnia cookies",
+        "date": "8/2020–12/2020"
+      }
+    ],
+    "tags": [
+      "detail-oriented",
+      "customer service",
+      "time management"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "First Jobs",
+    "dates": "12/2019 - 8/2022",
+    "desc": "I gained a strong foundation in customer service, teamwork, and time management through my food service and landscaping jobs. In these experiences I learned from natural leaders and mentorship qualities.",
+    "jobs": [
+      {
+        "company": "busch gardens",
+        "date": "12/2019–8/2022"
+      },
+      {
+        "company": "mcdonald's",
+        "date": "8/2020–12/2020"
+      }
+    ],
+    "tags": [
+      "detail-oriented",
+      "customer service",
+      "time management",
+      "leadership"
+    ]
+  }
+]

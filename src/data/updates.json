@@ -14,5 +14,13 @@
     "content": "./updateContents/goodbyeMSWord",
     "summary": "Today I opened up Microsoft Word to take notes on the autonomic nervous system, when I saw a tiny yellow banner at the top announcing terrible news: MS WORD IS NO LONGER!! So I, of course, got to scheming.",
     "image": "./thumbnail.png"
+  },
+  {
+    "id": 3,
+    "title": "Goodbye MS Word :(",
+    "date": "08-28-2025",
+    "content": "./updateContents/goodbyeMSWord",
+    "summary": "Today I opened up Microsoft Word to take notes on the autonomic nervous system, when I saw a tiny yellow banner at the top announcing terrible news: MS WORD IS NO LONGER!! So I, of course, got to scheming.",
+    "image": "./thumbnail.png"
   }
 ]

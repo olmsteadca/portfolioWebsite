@@ -1,0 +1,28 @@
+.project-container {
+    background-color: #FFFFFF;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
+
+h2.project-title {
+    color: #D23278;
+    max-width: 65%;
+    text-align: left;
+    line-height: 2rem;
+}
+
+h3.project-date {
+    text-align: right;
+    line-height: 2rem;
+}
+
+p.project-desc {
+    text-align: justify;
+}

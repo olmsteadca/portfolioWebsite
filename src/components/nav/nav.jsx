@@ -1,42 +1,45 @@
 import { Link } from 'react-router-dom';
 import PageLinks from "./PageNav.jsx";
+import "./nav.css"
+
 
 function Nav({ page }) {
 
-    const homeSections = ["Introduction", "Featured Projects", "Recent Updates", "Get in Touch!"];
+    const homeSections = ["Featured Projects", "Recent Updates"];
     const aboutSections = ["Summary", "Work History", "Fun Facts!"];
 
     return (
-        <nav id="navbar">
-            <div className="section-content">
-                <ul className="flex-column" style={{listStyle: "none" , alignItems: "flex-start"}}>
+        <nav id="navbar" style={{ position: "fixed" }}>
+            <ul className="nav-column">
 
-                    <Link to="/" style={{ textDecoration: "none" }}>
-                        <h2 style={{ color: "#FFFFFF", textAlign: "left" }}>Home</h2>
-                    </Link>
+                <Link to="/" className="nav-link">
+                    <h2 className="nav-link-text">Home</h2>
+                </Link>
 
-                    {page == "/" && (
-                        <PageLinks sections={homeSections} />
-                    )}
 
-                    <Link to="/Projects" style={{ textDecoration: "none" }}>
-                        <h2 style={{ color: "#FFFFFF", textAlign: "left" }}>Projects</h2>
-                    </Link>
+                {page == "/" && (
+                    <PageLinks sections={homeSections} />
+                )}
 
-                    <Link to="/Updates" style={{ textDecoration: "none" }}>
-                        <h2 style={{ color: "#FFFFFF", textAlign: "left" }}>Updates</h2>
-                    </Link>
 
-                    <Link to="/About" style={{ textDecoration: "none" }}>
-                        <h2 style={{ color: "#FFFFFF", textAlign: "left" }}>About</h2>
-                    </Link>
+                <Link to="/Projects" className="nav-link">
+                    <h2 className="nav-link-text">Projects</h2>
+                </Link>
 
-                    {page == "/About" && (
-                        <PageLinks sections={aboutSections} />
-                    )}
+                <Link to="/Updates" className="nav-link">
+                    <h2 className="nav-link-text">Updates</h2>
+                </Link>
+
+                <Link to="/About" className="nav-link">
+                    <h2 className="nav-link-text">About</h2>
+                </Link>
+
+                {page == "/About" && (
+                    <PageLinks sections={aboutSections} />
+                )}
+
 
                 </ul>
-            </div>
         </nav>
     );
 }
