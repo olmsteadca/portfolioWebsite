@@ -1,4 +1,4 @@
-import Icon from "@/components/icon.jsx"
+import Icon from "@/components/Icon"
 import adaptable from "@/pages/home/assets/adaptable.svg"
 import intuitive from "@/pages/home/assets/intuitive.svg"
 import accessible from "@/pages/home/assets/accessible.svg"

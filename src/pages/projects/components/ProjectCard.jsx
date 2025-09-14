@@ -1,9 +1,9 @@
 import "./projectCard.css"
-import Image from "@/components/image.jsx"
-import TagGroup from "@/components/tagGroup.jsx"
+import Image from "@/components/Image"
+import TagGroup from "@/components/TagGroup"
 
 
-function projectCard({ title, date, desc, thumbnail, tags, link }) {
+function ProjectCard({ title, date, desc, thumbnail, tags, link }) {
   return (
     <div className="project-container" id="project-card">
       <div className="flex-row" style={{ flexWrap: "nowrap", gap: "0" }}>
@@ -37,4 +37,4 @@ function projectCard({ title, date, desc, thumbnail, tags, link }) {
   );
 }
 
-export default projectCard;
+export default ProjectCard;

@@ -1,7 +1,7 @@
-import Update from "./components/UpdateCard.jsx"
+import UpdateCard from "./components/UpdateCard"
 import allUpdates from "@/data/updates.json"
 
-function updates() {
+function Updates() {
   return (
     <div className="section-content">
       <h1 style={{ color: "#FFFFFFF" }}>Updates</h1>
@@ -9,7 +9,7 @@ function updates() {
         <ul className="flex-grid" style={{padding: "2rem", listStyle: "none"}}>
           {allUpdates.map((update) => (
             <li key={update.id}>
-            <Update
+            <UpdateCard
               id={update.id}
               title={update.title}
               date={update.date}
@@ -24,4 +24,4 @@ function updates() {
   );
 }
 
-export default updates;
+export default Updates;

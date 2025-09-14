@@ -1,7 +1,7 @@
-import Image from "@/components/image.jsx";
+import Image from "@/components/Image";
 import portrait from "@/pages/about/assets/portrait-sims.jpg";
 import workHistory from "@/data/work.json";
-import WorkCard from "./components/WorkCard.jsx";
+import WorkCard from "./components/WorkCard";
 
 function About() {
   return (

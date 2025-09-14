@@ -1,5 +1,5 @@
 import allProjects from "@/data/projects.json"
-import Project from "./components/ProjectCard.jsx"
+import ProjectCard from "./components/ProjectCard"
 
 function Projects() {
   return ( 
@@ -8,7 +8,7 @@ function Projects() {
       <div className="transparent-container" style={{ padding: "2rem" }}>
         <ul className="flex-column" style={{ width: "95%", padding: "0", justifySelf: "center"}}>
           {allProjects.map((project) => (
-            <Project
+            <ProjectCard
               key={project.id}
               title={project.title}
               date={project.date}

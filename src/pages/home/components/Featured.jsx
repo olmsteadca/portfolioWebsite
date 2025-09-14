@@ -1,8 +1,8 @@
-import Project from "$/projects/components/ProjectCard.jsx"
+import Project from "$/projects/components/ProjectCard"
 import Projects from "@/data/projects.json"
 
 
-function featured() {
+function Featured() {
   var featuredProjects = Projects.filter(project => project.feature);
 
   return (
@@ -27,4 +27,4 @@ function featured() {
   );
 }
 
-export default featured;
+export default Featured;

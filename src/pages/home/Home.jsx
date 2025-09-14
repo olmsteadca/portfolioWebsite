@@ -1,7 +1,6 @@
-import Hero from "./components/hero.jsx"
-import Featured from "./components/featured.jsx"
-import RecentUpdates from "./components/recentUpdates.jsx"
-
+import Hero from "./components/Hero"
+import Featured from "./components/Featured"
+import RecentUpdates from "./components/RecentUpdates"
 function Home() {
     return (
         <>
