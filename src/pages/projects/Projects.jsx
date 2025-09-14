@@ -1,5 +1,5 @@
 import allProjects from "@/data/projects.json"
-import Project from "./components/ProjectCard"
+import Project from "./components/ProjectCard.jsx"
 
 function Projects() {
   return ( 

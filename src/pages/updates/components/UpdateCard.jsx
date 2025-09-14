@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import Image from "@/components/image.jsx"
 import "./updateCard.css"
 
@@ -6,7 +5,7 @@ function update({ id, title, date, summary, image }) {
 
     return (
 
-            <div className="update-container" key={title}>
+            <div className="update-container" key={id}>
                 <div>
 
                     <Image

@@ -1,4 +1,4 @@
-import Project from "$/projects/components/ProjectCard"
+import Project from "$/projects/components/ProjectCard.jsx"
 import Projects from "@/data/projects.json"
 
 

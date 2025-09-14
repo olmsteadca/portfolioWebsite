@@ -1,5 +1,5 @@
-import WorkTable from "./WorkTable"
-import TagGroup from "@/components/TagGroup"
+import WorkTable from "./WorkTable.jsx"
+import TagGroup from "@/components/TagGroup.jsx"
 import "./workCard.css"
 
 function WorkCard({ title, dates, desc, jobs, tags }) {

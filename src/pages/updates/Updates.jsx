@@ -1,4 +1,4 @@
-import Update from "./components/UpdateCard"
+import Update from "./components/UpdateCard.jsx"
 import allUpdates from "@/data/updates.json"
 
 function updates() {
