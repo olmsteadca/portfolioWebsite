@@ -19,26 +19,23 @@ I started this project to fulfill multiple needs:
 
 ## Current State
 
-Currently, I am pursuing a minimum viable product. 
-This means mostly static webpages and possibly some disorganized code.
+I have achieved a minimum viable product!
+All images on the website are currently placeholders, as I'm a bit split between actually making the content and developing the website to show the content.
+Right now it's a simple, pretty, static website - set up on Github pages.
 
 ## Current Focus
 
-This project is also mean to be my reintroduction to React, so I am reworking my existing code that I sort of brute forced together.
-This involves removing unnecessary complexity in file structure, styles, and components themselves - in hopes that these reworks make implementing interactive components easier.
+Much to be done! First and foremost, fixing sizing and automatic resizing by viewport dimensions. I use a monitor with 16:10 aspect ratio, which cause some issues on other screens.
+Then, implementing pages for each project and update card. I know there's a sort-of automatic way, but I need to research more.
+Once that very important step is done, on to content creation, animated media, possibly messing around with State.
 
 ## Next Steps
+I still ned to look into moving from JavaScript to Typescript.
 
-To reach MVP, I must finish a first implementation for:
+- [] Responsive sizing
+- [] Projects pages
+- [] Updates pages
+- [] Updates contents
+- [] Media (images, gifs, etc.)
 
-- [x] Home Page
-- [x] Projects Browser
-- [x] Updates Browser
-- [ ] About Page
 
-After completing, I will look into moving over to TypeScript for type safety, ease of implementing interactivity, and to learn a language more commonly used with React.
-
-## Future Improvements
-
-I plan to make this an interactive and professional UI design portfolio.
-This means I need to do more research on State in React, as well as animating UI elements.

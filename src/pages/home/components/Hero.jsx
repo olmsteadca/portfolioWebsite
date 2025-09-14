@@ -18,7 +18,7 @@ function Hero() {
                 </div>
 
 
-                <p style={{ marginInline: "8rem" }}>
+                <p style={{ width: "60%", textAlign: "center"}}>
                     I want to help you deliver products your users want to engage with! To make that happen, I focus on designs that are: 
                 </p>
 

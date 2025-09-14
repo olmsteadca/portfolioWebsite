@@ -7,13 +7,13 @@ function Image({ src, use }) {
     const midImage = {
         borderRadius: "1rem 1rem 1rem 1rem",
         height: "contain",
-        width: "500px"
+        width: "400px"
     };
 
     const topImage = {
         borderRadius: "1rem 1rem 0 0",
         objectFit: "cover",
-        height: "500px",
+        height: "400px",
         width: "stretch"
     };
 

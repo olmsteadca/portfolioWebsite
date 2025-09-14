@@ -6,7 +6,7 @@ function update({ id, title, date, summary, image }) {
 
     return (
 
-            <div className="update-container" key={id}>
+            <div className="update-container" key={title}>
                 <div>
 
                     <Image

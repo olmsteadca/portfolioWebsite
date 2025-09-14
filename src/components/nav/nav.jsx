@@ -6,7 +6,7 @@ import "./nav.css"
 function Nav({ page }) {
 
     const homeSections = ["Featured Projects", "Recent Updates"];
-    const aboutSections = ["Summary", "Work History", "Fun Facts!"];
+    const aboutSections = ["Summary", "Work History"]; /* Add Fun Facts later */ 
 
     return (
         <nav id="navbar" style={{ position: "fixed" }}>

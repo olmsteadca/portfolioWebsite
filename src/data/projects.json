@@ -1,62 +1,42 @@
 [
   {
     "id": 1,
+    "title": "Portfolio Website",
+    "description": "This website! Serves to keep my projects in one place and keep me motivated. A sort of playground where I can practice React development.",
+    "image": "/thumbnail.png",
+    "tags": [ "React", "JavaScript", "NodeJS", "CSS", "UI Design" ],
+    "date": "07/2025 - Now",
+    "link": "https://github.com/olmsteadca/portfolioWebsite",
+    "feature": true
+  },
+  {
+    "id": 2,
+    "title": "Name Learning Game",
+    "description": "A mobile game designed to help users memorize names and faces in a fun and interactive way. Ideal for educators and team leads.",
+    "image": "/thumbnail.png",
+    "tags": [ "Mobile", "React Native", "UX Design", "Figma" ],
+    "date": "01/2023 - 05/2023",
+    "link": "https://www.figma.com/community/file/1548426992260682802/roster-prototype",
+    "feature": true
+  },
+  {
+    "id": 3,
+    "title": "Astronomy Database",
+    "description": "A database system for cataloging celestial objects and astronomical events, complete with advanced filtering and API access.",
+    "image": "/thumbnail.png",
+    "tags": [ "SQL", "Python", "Flask", "SQLAlchemy", "Quarto"],
+    "date": "08/2023 - 12/2023",
+    "link": "https://github.com/cmsc-vcu/cmsc508-fa2023-prj-astronomy_database_group53",
+    "feature": false
+  },
+  {
+    "id": 4,
     "title": "Liked Songs Manager",
     "description": "A web tool using the Spotify API to help users remove old or unwanted liked songs based on artist and listening history.",
     "image": "/thumbnail.png",
     "tags": [ "React", "Spotify API", "Automation" ],
-    "date": "01/2022 - 01/2023",
-    "link": "https://github.com/celesteolmstead/spotify-liked-songs",
+    "date": "08/2023 - 9/2023",
+    "link": "",
     "feature": false
-  },
-  {
-    "id": 2,
-    "title": "Fashion Pattern Autograder",
-    "description": "A grading tool that evaluates fashion pattern submissions based on custom rules. Built to streamline assessment and provide feedback efficiently.",
-    "image": "/thumbnail.png",
-    "tags": [ "Python", "Logic Systems", "CLI" ],
-    "date": "01/2022 - 01/2023",
-    "link": "https://github.com/celesteolmstead/pattern-autograder",
-    "feature": false
-  },
-  {
-    "id": 3,
-    "title": "Name Learning Game",
-    "description": "A mobile game designed to help users memorize names and faces in a fun and interactive way. Ideal for educators and team leads.",
-    "image": "/thumbnail.png",
-    "tags": [ "Mobile", "React Native", "UX Design" ],
-    "date": "01/2022 - 01/2023",
-    "link": "https://github.com/celesteolmstead/name-learning-game",
-    "feature": true
-  },
-  {
-    "id": 4,
-    "title": "Astronomy Database",
-    "description": "A database system for cataloging celestial objects and astronomical events, complete with advanced filtering and API access.",
-    "image": "/thumbnail.png",
-    "tags": [ "SQL", "Databases", "API" ],
-    "date": "01/2022 - 01/2023",
-    "link": "https://github.com/celesteolmstead/astronomy-database",
-    "feature": true
-  },
-  {
-    "id": 5,
-    "title": "Tokenizer and Parser",
-    "description": "A custom tokenizer and parser for a simple programming language, developed as part of a compilers course.",
-    "image": "/thumbnail.png",
-    "tags": [ "Compilers", "C++", "Parsing" ],
-    "date": "01/2022 - 01/2023",
-    "link": "https://github.com/celesteolmstead/tokenizer-parser",
-    "feature": false
-  },
-  {
-    "id": 6,
-    "title": "Portfolio Website",
-    "description": "123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789 123456789",
-    "image": "/thumbnail.png",
-    "tags": [ "React", "JaveScript", "NodeJS" ],
-    "date": "01/2022 - 01/2023",
-    "link": "https://github.com/celesteolmstead/tokenizer-parser",
-    "feature": true
   }
 ]

@@ -4,9 +4,6 @@ const path = require('path')
 
 module.exports = defineConfig({
     plugins: [react()],
-    server: {
-        port: 50177,
-    },
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),
