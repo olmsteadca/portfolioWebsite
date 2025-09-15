@@ -7,8 +7,8 @@ module.exports = defineConfig({
   base: '/portfolioWebsite/',
     resolve: {
         alias: {
-            '@': path.resolve(__dirname, '/src'),
-            '$': path.resolve(__dirname, '/src/pages'),
+            '@': path.resolve(__dirname, './src'),
+            '$': path.resolve(__dirname, './src/pages'),
         },
   },
 })
