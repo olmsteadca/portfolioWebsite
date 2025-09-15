@@ -4,7 +4,7 @@ const path = require('path')
 
 module.exports = defineConfig({
   plugins: [react()],
-  base: './dist',
+  base: '.dist/',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),
