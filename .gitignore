@@ -22,7 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-./.vs/*
 ./obj
 ./obj/*
 ./portfolioWebsite.esproj.user
