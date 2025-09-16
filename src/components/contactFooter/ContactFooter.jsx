@@ -1,4 +1,4 @@
-import "./contact-footer.css"
+import "./contactFooter.css"
 
 
 function ContactFooter() {
