@@ -5,7 +5,7 @@ function UpdateCard({ id, title, date, summary, image }) {
 
     return (
 
-            <div className="update-container" key={title}>
+            <div className="update-container" key={id}>
                 <div>
 
                     <Image

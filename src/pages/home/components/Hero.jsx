@@ -9,7 +9,7 @@ function Hero() {
         <section id="introduction_section" className="transparent-container">
             <div className="section-content">
 
-                <h1 style={{ fontSize: "8rem", color: "#29478A" }}>
+                <h1 style={{ fontSize: "8rem", color: "#29478A"}}>
                     Hi, I'm Celeste!
                 </h1>
 

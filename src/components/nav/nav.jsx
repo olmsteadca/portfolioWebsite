@@ -9,7 +9,7 @@ function Nav({ page }) {
     const aboutSections = ["Summary", "Work History"]; /* Add Fun Facts later */ 
 
     return (
-        <nav id="navbar" style={{ position: "fixed" }}>
+        <nav id="navbar">
             <ul className="nav-column">
 
                 <Link to="/" className="nav-link">

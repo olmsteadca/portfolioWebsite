@@ -13,7 +13,7 @@ function Image({ src, use }) {
     const topImage = {
         borderRadius: "1rem 1rem 0 0",
         objectFit: "cover",
-        height: "400px",
+        height: "25rem",
         width: "stretch"
     };
 
