@@ -5,15 +5,15 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ['main']
-
-  # Allows you to run this workflow manually from the Actions tab
+    
+  # Run manually from actions tab
   workflow_dispatch:
 
 # Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
 permissions:
-  contents: read      # so it can read your repo
-  pages: write        # so it can publish to GitHub Pages
-  id-token: write     # needed for authentication with GitHub Pages
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   # Single deploy job since we're just deploying

@@ -6,7 +6,7 @@ function Projects() {
     <div className="section-content">
       <h1 style={{ color: "#FFFFFF" }}>Projects</h1>
       <div className="transparent-container" style={{ padding: "2rem" }}>
-        <ul className="flex-column" style={{ width: "95%", padding: "0", justifySelf: "center"}}>
+        <ul className="flex-column" style={{ width: "95%", padding: "0", justifySelf: "center", listStyle: "none"}}>
           {allProjects.map((project) => (
             <ProjectCard
               key={project.id}
