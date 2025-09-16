@@ -1,7 +1,7 @@
 import Image from "@/components/image.jsx"
 import "./updateCard.css"
 
-function update({ id, title, date, summary, image }) {
+function UpdateCard({ id, title, date, summary, image }) {
 
     return (
 
@@ -36,4 +36,4 @@ function update({ id, title, date, summary, image }) {
   );
 }
 
-export default update;
+export default UpdateCard;

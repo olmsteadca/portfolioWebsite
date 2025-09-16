@@ -1,7 +1,7 @@
 import allUpdates from "@/data/updates.json"
-import Update from "$/updates/components/UpdateCard.jsx"
+import UpdateCard from "$/updates/components/UpdateCard.jsx"
 
-function recentUpdates() {
+function RecentUpdates() {
     var updates = allUpdates.slice(-2);
 
     var path = "/GoodbyeMSWord"
@@ -14,7 +14,7 @@ function recentUpdates() {
                     
                 <ul className="flex-row" style={{flexWrap: "nowrap"}}>
                     {updates.map((update) => (
-                        <Update
+                        <UpdateCard
                             key={update.id}
                             title={update.title}
                             date={update.date}
@@ -29,4 +29,4 @@ function recentUpdates() {
     );
 }
 
-export default recentUpdates;
+export default RecentUpdates;

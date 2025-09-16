@@ -1,4 +1,4 @@
-function tagGroup({ tags }) {
+function TagGroup({ tags }) {
     return (
         <div className="flex-row">
             {tags.map((tag) => (
@@ -12,4 +12,4 @@ function tagGroup({ tags }) {
     );
 }
 
-export default tagGroup;
+export default TagGroup;

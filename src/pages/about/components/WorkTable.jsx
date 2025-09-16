@@ -1,4 +1,4 @@
-import "./WorkTable.css";
+import "./workTable.css";
 
 function WorkTable({ contents }) {
   return (

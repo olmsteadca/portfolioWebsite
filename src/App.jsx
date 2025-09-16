@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from '@/components/Layout.jsx';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from '@/components/layout.jsx';
 import Home from '@/pages/home/Home.jsx';
 import Projects from '@/pages/projects/Projects.jsx';
 import About from '@/pages/about/About.jsx';
