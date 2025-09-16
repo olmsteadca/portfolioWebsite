@@ -1,4 +1,4 @@
-import Image from "@/components/Image"
+import Image from "@/components/image.jsx"
 import "./updateCard.css"
 
 function UpdateCard({ id, title, date, summary, image }) {
