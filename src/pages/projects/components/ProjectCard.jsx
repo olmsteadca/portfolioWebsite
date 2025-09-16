@@ -1,6 +1,6 @@
 import "./projectCard.css"
-import Image from "@/components/Image"
-import TagGroup from "@/components/TagGroup"
+import Image from "@/components/image.jsx"
+import TagGroup from "@/components/tagGroup.jsx"
 
 
 function ProjectCard({ title, date, desc, thumbnail, tags, link }) {
