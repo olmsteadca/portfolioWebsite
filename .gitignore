@@ -32,3 +32,4 @@ dist-ssr
 /.vs/portfolioWebsite/FileContentIndex/48e9eee4-5838-4741-9147-e74300ef915f.vsidx
 *.vsidx
 *.sqlite
+/.vs/VSWorkspaceState.json
