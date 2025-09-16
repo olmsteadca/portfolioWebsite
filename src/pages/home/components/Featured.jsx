@@ -9,7 +9,7 @@ function Featured() {
     <section id="featured-projects-section">
       <div className="section-content">
         <h1>Featured Projects</h1>
-        <ul className="flex-column" style={{ padding: "2rem" }}>
+        <ul className="flex-column" style={{ padding: "2rem", listStyle: "none"}}>
           {featuredProjects.map((project) => (
             <Project
               key={project.id}
