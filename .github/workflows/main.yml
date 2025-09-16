@@ -4,6 +4,11 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+permissions:
+  contents: read      # so it can read your repo
+  pages: write        # so it can publish to GitHub Pages
+  id-token: write     # needed for authentication with GitHub Pages
+
 jobs:
   deploy:
 

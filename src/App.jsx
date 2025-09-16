@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Layout from '@/components/Layout';
-import Home from '@/pages/home/Home';
-import Projects from '@/pages/projects/Projects';
-import About from '@/pages/about/About';
-import Updates from '@/pages/updates/Updates';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Layout from '@/components/layout.jsx';
+import Home from '@/pages/home/Home.jsx';
+import Projects from '@/pages/projects/Projects.jsx';
+import About from '@/pages/about/About.jsx';
+import Updates from '@/pages/updates/Updates.jsx';
 
 function App() {
     return (

@@ -4,7 +4,7 @@ const path = require('path')
 
 module.exports = defineConfig({
   plugins: [react()],
-  /*if running locally, remove the base config*/
+  base: '/portfolioWebsite/',
     resolve: {
         alias: {
             '@': path.resolve(__dirname, './src'),

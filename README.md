@@ -4,7 +4,7 @@ This repository includes all files necessary to build and run my portfolio websi
 I am developing with Visual Studio, Node.js, Vite, and React.
 I started this project to fulfill multiple needs:
 
-1. Showing physical proof of my skills to employers
+1. Showing proof of my skills to employers
 2. Finding a way to easily organize all my work from college
 3. Practicing and improving on my website development skills
 
