@@ -3,6 +3,9 @@ import portrait from "@/pages/about/assets/portrait-sims.jpg";
 import workHistory from "@/data/work.json";
 import WorkCard from "./components/WorkCard.jsx";
 
+/* TODO: Fun facts section, Make intro section prettier  */
+/* TODO components: check styling */
+
 function About() {
   return (
     <>

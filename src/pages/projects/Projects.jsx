@@ -1,6 +1,8 @@
 import allProjects from "@/data/projects.json"
 import ProjectCard from "./components/ProjectCard.jsx"
 
+/* TODO: prep for pagination, make ProjectPage.jsx */
+
 function Projects() {
   return ( 
     <div className="section-content">

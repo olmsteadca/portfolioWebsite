@@ -1,5 +1,6 @@
 import "./contactFooter.css"
 
+/* TODO: Add in phone popup */
 
 function ContactFooter() {
   return (

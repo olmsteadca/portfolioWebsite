@@ -2,6 +2,7 @@ import "./projectCard.css"
 import Image from "@/components/image.jsx"
 import TagGroup from "@/components/tagGroup.jsx"
 
+/* TODO: if project is featured, on long hover over picture, picture + container should get larger to show animated media, possibly have it happen when clicking an expand button for longer summary */
 
 function ProjectCard({ title, date, desc, thumbnail, tags, link }) {
   return (

@@ -1,3 +1,5 @@
+
+/* TODO: add horizontal scrolling - on hover, first third -> scroll left, on hover, last third, -> scroll left, on hover of tag text, should link to tag contents */
 function TagGroup({ tags }) {
     return (
       <div className="flex-row" style={{flexWrap: "nowrap", overflow: "hidden"}}>

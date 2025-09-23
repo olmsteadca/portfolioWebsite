@@ -1,6 +1,8 @@
 import UpdateCard from "./components/UpdateCard.jsx"
 import allUpdates from "@/data/updates.json"
 
+/* TODO: prep for pagination */
+
 function Updates() {
   return (
     <div className="section-content">
