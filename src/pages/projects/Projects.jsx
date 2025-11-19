@@ -1,5 +1,5 @@
-import allProjects from "@/data/projects.json"
-import ProjectCard from "./components/ProjectCard.jsx"
+import allProjects from "@data/projects.json"
+import ProjectCard from "./components/ProjectCard"
 
 /* TODO: prep for pagination, make ProjectPage.jsx */
 

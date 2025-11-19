@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, useLocation } from 'react-router-dom';
-import Nav from "@/components/nav/nav.jsx"
-import Footer from "@/components/contactFooter/ContactFooter.jsx"
+import Nav from "@/components/Nav/Nav"
+import Footer from "@/components/ContactFooter/ContactFooter"
 
 function Layout() {
     var location = useLocation();

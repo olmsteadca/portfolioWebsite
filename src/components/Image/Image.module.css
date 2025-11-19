@@ -1,0 +1,33 @@
+.top {
+  border-radius: 1rem 1rem 0 0;
+  object-fit: cover;
+  height: 25rem;
+  width: stretch;
+}
+
+.bottom {
+  border-radius: 0 0 1rem 1rem;
+  object-fit: cover;
+  height: stretch;
+  width: 25rem;
+}
+
+.left {
+  border-radius: 1rem 0 0 1rem;
+  object-fit: cover;
+  height: stretch;
+  width: 25rem;
+}
+
+.right {
+  border-radius: 0 1rem 1rem 0;
+  object-fit: cover;
+  height: stretch;
+  width: 25rem;
+}
+
+.mid {
+  border-radius: 1rem;
+  height: contain;
+  width: 25rem;
+}

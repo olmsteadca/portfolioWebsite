@@ -1,20 +1,29 @@
-h2.nav-link-text {
+h2.link {
     text-align: left;
     color: #FFFFFF;
     line-height: 2rem;
-}
-.nav-link {
     text-decoration: none;
 }
 
-.nav-column {
+.column {
     list-style: none;
     align-items: flex-start;
     gap: 2rem;
 }
 
-h3.nav-link-text {
+.link {
+  text-decoration: none;
+}
+
+.icon {
+  width: 5rem;
+  height: 5rem;
+  margin-left: -2.1rem;
+}
+
+h3.link {
     text-align: left;
     color: #FFFFFF;
     line-height: 2rem;
+    text-decoration: none;
 }

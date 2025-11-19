@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Image from "@/components/image.jsx";
-import "./updateCard.css";
+import Image from "@components/Image/Image";
+import styles from "./blogCard.module.css";
 
 function UpdateCard({ id, title, date, summary, image }) {
   return (
-    <div className="update-container">
+    <div className={styles.container} >
         <div>
           <Image src={image} use="top" />
           <div className="flex-column" style={{ padding: "2rem", position: "relative" }}>
@@ -17,7 +17,7 @@ function UpdateCard({ id, title, date, summary, image }) {
             </div>
             <div className="flex-row" style={{ justifyContent: "space-between"}}>
               <p style={{ textAlign: "justify", marginInline: "1rem" }}>{summary}
-                <span><Link to={`/Updates/${id}`} style={{ textDecoration: "none", color: "#D23278", fontWeight: "700"}}> read more</Link></span>
+                <span><Link to={`/Blog/${id}`} style={{ textDecoration: "none", color: "#D23278", fontWeight: "700"}}> read more</Link></span>
               </p>
             </div>
           </div>

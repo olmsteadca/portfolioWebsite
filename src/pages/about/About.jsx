@@ -1,7 +1,7 @@
-import Image from "@/components/image.jsx";
-import portrait from "@/pages/about/assets/portrait-sims.jpg";
-import workHistory from "@/data/work.json";
-import WorkCard from "./components/WorkCard.jsx";
+import Image from "@components/Image/Image";
+import portrait from "@pages/About/assets/portrait-sims.jpg";
+import workHistory from "@data/work.json";
+import WorkCard from "./components/WorkCard";
 
 /* TODO: Fun facts section, Make intro section prettier  */
 /* TODO components: check styling */

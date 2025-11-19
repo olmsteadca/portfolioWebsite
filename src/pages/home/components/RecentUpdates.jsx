@@ -1,21 +1,21 @@
-import allUpdates from "@/data/updates.json"
-import UpdateCard from "$/updates/components/UpdateCard.jsx"
+import allPosts from "@data/blog-posts.json"
+import BlogCard from "@pages/Blog/components/BlogCard"
 
 function RecentUpdates() {
-  var updates = allUpdates.slice(-2);
+  var posts = allPosts.slice(-2);
   return (
     <section id="recent-updates-section">
       <div className="section-content">
         <h1 className="title">Recent Updates</h1>
         <ul className="flex-row" style={{ flexWrap: "nowrap", listStyle: "none" }}>
-          {updates.map((update) => (
-            <li key={update.id}>
-              <UpdateCard
-                id={update.id}
-                title={update.title}
-                date={update.date}
-                summary={update.summary}
-                image={update.image}
+          {posts.map((post) => (
+            <li key={post.id}>
+              <BlogCard
+                id={post.id}
+                title={post.title}
+                date={post.date}
+                summary={post.summary}
+                image={post.image}
               />
             </li>
           ))}
