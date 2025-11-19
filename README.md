@@ -32,9 +32,9 @@ Once that very important step is done, on to content creation, animated media, p
 ## Next Steps
 I still ned to look into moving from JavaScript to Typescript.
 
-- [ ] Responsive sizing
+- [x] Responsive sizing
 - [ ] Projects pages
-- [ ] Updates pages
+- [x] Updates pages
 - [ ] Updates contents
 - [ ] Media (images, gifs, etc.)
 
